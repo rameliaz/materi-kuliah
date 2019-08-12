@@ -1,0 +1,58 @@
+---
+title: "Pengantar Kuantitatif"
+subtitle: "Metode Penelitian dan Analisis Data Kuantitatif"
+author: "Rizqy Amelia Zein"
+date: "2019/08/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["default", "rladies", "rladies-fonts"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      ratio: '16:9'
+      highlightLines: true
+      countIncrementalSlides: false
+vignette: >
+  %\VignetteIndexEntry{libs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+class: inverse, middle, title-slide, spaced
+
+```{r setup, include=FALSE}
+library(fontawesome)
+library(tidyverse)
+library(emo)
+options(htmltools.dir.version = FALSE, width=120)
+```
+
+class: title-slide, spaced
+
+<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> 
+
+# Paradigma Berpikir Metodis dan *Scientific Reasoning*
+## Metode Penelitian dan Analisis Data Kuantitatif
+<br>
+### [<b>Rizqy Amelia Zein</b>](https://rameliaz.github.io/)
+Dosen Departemen Psikologi Kepribadian dan Sosial, [Fakultas Psikologi, Universitas Airlangga](https://psikologi.unair.ac.id)
+
+.footnote[
+Materi dalam paparan ini berlisensi `r fa("creative-commons")` 4.0 dan tersedia di laman web pribadi saya **(https://rameliaz.github.io/talk/populer-2019)**. <br>
+Kode tersedia secara terbuka di [repositori](https://github.com/rameliaz/invited-talks-workshops/blob/master/workshop%20DSI.Rmd) `r fa("github")` saya. </br>
+]
+
+---
+
+---
+
+class: center, middle
+
+# Terima kasih banyak!
+
+![](https://media.giphy.com/media/hrBSJ2So6iTo4/giphy.gif)
+
+Paparan disusun dengan menggunakan `r fa("r-project")` *package* [**xaringan**](https://github.com/yihui/xaringan) dengan *template* dan *fonts* dari `R-Ladies`.
+
+*Chakra* dibuat dengan [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), dan [R Markdown](https://rmarkdown.rstudio.com).
